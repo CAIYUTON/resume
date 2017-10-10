@@ -81,17 +81,14 @@ header .content .btn {/*选择器 按钮*/
 header .content .btn:hover{
 	background: #4eb2d6;
 }
-header .content .sanjiao{
+header .content .sanjiao img{
 	margin: 20px  auto 0;
-	/*制作三角步骤*/
-    width:0px;
-	height:0px;
-	border-top:40px solid white;
-	border-bottom:0;
-	border-left:40px solid transparent;
-	border-right :40px solid transparent;
+    padding-top: 30px;
+	border-left:25px solid transparent;
+	border-right :25px solid transparent;
 	/*动画*/
 	animation:move 1s infinite;/*无限的*/
+	display: block;
 }
 @keyframes move{
 	0%{margin-top:20px;}
@@ -368,8 +365,8 @@ footer h3 .title{
 }
 .backTop{
 	width: 100px;
-	height: 100px;
-	background: yellow;
+	height: 50px;
+
 	position: fixed;
 	right: 100px;
 	bottom: 100px;
